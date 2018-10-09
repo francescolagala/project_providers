@@ -10,15 +10,32 @@
 ![image](https://image.ibb.co/hLvT19/UseCase.png)
 
 ### PUNTI SALIENTI:
-- Accesso da parte di PM e Assistenti attraverso un Single sign-on con le credenziali aziendali.
-- L'assistente può inviare una email di invito ai providers.
-- I providers che ricevono l'invito possono registrarsi attraverso un form, gli verrà dunque
-assegnata una password temporanea che dovrà poi essere cambiata.
-- I pm possono creare una campagna di reclutamento invitando dei provider.
-- I provider invitati riceveranno una mail nella quale verrà richiesto di unirsi alla campagna.
-- Un provider registrato può creare dei Profili ai quali può assegnare un file CV.
-- Una volta creato un profilo, questo può essere associato ad una campagna.
-- Quando un profilo viene associato alla campagna il PM riceve una notifica via email.
-- Il pm da una lista profili associati può selezionare i profili ai quali è interessato.
-- Quando un pm decide di chiudere una campagna Providers e Assistenti riceveranno una mail
-nella quale viene notificata una lista dei profili accettati.
+- PM e ASSISTANT:accesso con le credenziali aziendali (Single-Sign-On)
+
+- ASSISTANT: può invitare uno o più providers
+
+- PROVIDER: se riceve un invito può registrarsi attraverso un form. 
+A registrazione avvenuta il provider riceverà una password temporanea da personalizzare
+
+- PM: può creare una CAMPAIGN di reclutamento.
+All'atto della creazione può selezionare una lista di providers*
+
+- PROVIDER: Se indicato come provider all'atto di creazione di una CAMPAIGN riceve un email di notifica.
+
+- PROVIDER: Può registrare un PROFILE inserendone i dati e allegando un CV.
+
+- PROVIDER: Può associare un PROFILE ad una CAMPAIGN.
+
+- PM: Quando un PROFILE viene associato alla propria CAMPAIGN riceve una email di notifica.
+
+- PM: Può approvare o meno i PROFILE inviati dai PROVIDERS.
+
+- PM: Può chiudere una CAMPAIGN.
+All'atto della chiusura i PROVIDERS associati alla campaign e gli ASSISTANT riceveranno una email di notifica.
+Nella mail sarà presente una lista dei PROFILE idonei e le indicazioni su come procedere per l'offerta.
+
+
+NOTES:
+*Un futuro sviluppo dovrà prevedere un ranking per i providers con priorità di notifica.
+
+
