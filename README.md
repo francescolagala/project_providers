@@ -70,10 +70,10 @@ Download package depending on your OS System and install. After that:
  [![image](https://image.ibb.co/jgPaZU/1_O68_Lb_Dv_D5_Dcsnez73_M7v4_Q.png)](https://start.spring.io/)
   
   - Select an useful name and artifact_id for your project.
-  - Add web dependency and lombok.(Other dependencies will be added in the next steps)
+  - Add dependencies.
   - Click on Generate Project to download your project.
   - Copy the files in your workspace
-  - Import this project as Maven project
+  - Import the project as Maven project
   
   
   ### Now you are ready to start!
@@ -81,7 +81,7 @@ Download package depending on your OS System and install. After that:
 
 
 
-# project_providers
+# app fornitori
 
 ### Secondo l'analisi delle specifiche richieste si propongono i seguenti diagrammi:
 
