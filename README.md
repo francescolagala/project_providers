@@ -47,7 +47,7 @@ Maven `settings.xml` file is inside maven conf folder. Here you can change globa
 ```
 ### Apache Tomcat
 
-[![image](https://image.ibb.co/bz1VZU/en.png)](https://tomcat.apache.org/download-90.cgi)
+[![image](https://image.ibb.co/bz1VZU/en.png)](https://tomcat.apache.org)
 Tomcat 9.0.10 version.
 
 Download package depending on your OS System and install. After that:
