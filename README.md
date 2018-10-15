@@ -47,7 +47,7 @@ Maven `settings.xml` file is inside maven conf folder. Here you can change globa
 ```
 ### Apache Tomcat
 
-[![image](https://image.ibb.co/bz1VZU/en.png)](https://archive.apache.org/dist/tomcat/tomcat-9/)
+[![image](https://image.ibb.co/bz1VZU/en.png)](https://tomcat.apache.org/download-90.cgi)
 Tomcat 9.0.10 version.
 
 Download package depending on your OS System and install. After that:
@@ -69,6 +69,7 @@ Download package depending on your OS System and install. After that:
 
  [![image](https://image.ibb.co/jgPaZU/1_O68_Lb_Dv_D5_Dcsnez73_M7v4_Q.png)](https://start.spring.io/)
   
+  - Select correct version: 1.5.16
   - Select an useful name and artifact_id for your project.
   - Add dependencies.
   - Click on Generate Project to download your project.
