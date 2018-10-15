@@ -1,3 +1,86 @@
+# Getting Started
+
+Il progetto si basa sull'utilizzo dei seguenti tools:
+
+- Spring Tool Suite 3.9.5
+- Maven 3.5.4
+- Tomcat 9.0.10
+- Java 8 
+- Spring Initializer 1.5.16
+
+### Java
+
+[![image](https://image.ibb.co/bz1VZU/en.png)](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+Java 8 version.
+
+Download package depending on your OS System and install. After that:
+  - add JAVA_HOME to environment variables pointing to JDK folder and add to PATH variable
+  - add JRE_HOME to environment variables pointing to JRE folder and add to PATH variable
+  
+### Apache Maven
+
+[![image](https://image.ibb.co/bz1VZU/en.png)](https://maven.apache.org/download.cgi)
+Maven 3.5.4 version.
+
+Download package depending on your OS System and install. After that:
+  - add M2_HOME to environment variables pointing to Maven folder and add to PATH variable
+  
+### Maven settings
+Maven `settings.xml` file is inside maven conf folder. Here you can change global configurations and add for example proxy settings. If you want to override global settings you can create inside your local `~/.m2` folder a copy of the global `settings.xml` file and edit this one. 
+```xml
+<proxy>
+    <id>sopra_http</id>
+    <active>true</active>
+    <protocol>http</protocol>
+    <host>miln.proxy.corp.sopra</host>
+    <port>8080</port>
+    <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+</proxy>
+<proxy>
+    <id>sopra_https</id>
+     <active>true</active>
+     <protocol>https</protocol>
+     <host>miln.proxy.corp.sopra</host>
+     <port>8080</port>
+     <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+</proxy>  
+```
+### Apache Tomcat
+
+[![image](https://image.ibb.co/bz1VZU/en.png)](https://archive.apache.org/dist/tomcat/tomcat-9/)
+Tomcat 9.0.10 version.
+
+Download package depending on your OS System and install. After that:
+  - add CATALINA_HOME to environment variables pointing to Maven folder and add to PATH variable 
+Run startup.bat
+Go to localhost:8080 to verify the correct installation
+  
+### Spring Tool Suite
+
+[![image](https://image.ibb.co/bz1VZU/en.png)](https://spring.io/blog/2018/07/05/spring-tool-suite-3-9-5-released)
+Spring Tool Suite 3.9.5 version.
+
+Download package depending on your OS System and install. After that:
+  - Start your IDE
+  - Add a new Server (Tomcat)
+  - Set up proxies if necessary.
+  
+### Spring Boot Inizializer
+
+ [![image](https://image.ibb.co/jgPaZU/1_O68_Lb_Dv_D5_Dcsnez73_M7v4_Q.png)](https://start.spring.io/)
+  
+  - Select an useful name and artifact_id for your project.
+  - Add web dependency and lombok.(Other dependencies will be added in the next steps)
+  - Click on Generate Project to download your project.
+  - Copy the files in your workspace
+  - Import this project as Maven project
+  
+  
+  ### Now you are ready to start!
+
+
+
+
 # project_providers
 
 ### Secondo l'analisi delle specifiche richieste si propongono i seguenti diagrammi:
