@@ -69,7 +69,7 @@ Download package depending on your OS System and install. After that:
 
  [![image](https://image.ibb.co/jgPaZU/1_O68_Lb_Dv_D5_Dcsnez73_M7v4_Q.png)](https://start.spring.io/)
   
-  - Select correct version: 1.5.16
+  - Generate a Maven Project whit Java and Spring Boot 1.5.16
   - Select an useful name and artifact_id for your project.
   - Add dependencies.
   - Click on Generate Project to download your project.
